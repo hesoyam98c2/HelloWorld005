@@ -5,7 +5,7 @@ import pyvista as pv
 #from stpyvista import stpyvista
 import os
 
-from PIL import Image
+#rom PIL import Image
 
 import cadquery as cq
 
