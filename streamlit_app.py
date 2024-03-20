@@ -2,7 +2,7 @@ import streamlit as st
 
 import shutil
 import pyvista as pv
-from stpyvista import stpyvista
+#from stpyvista import stpyvista
 import os
 
 from PIL import Image
@@ -51,7 +51,7 @@ def main():
                 plotter.view_isometric()
                 # Show the plot to the screen
                 with placeholder.container():
-                    stpyvista(plotter)
+                    #stpyvista(plotter)
                     plotter.show()
 
     
