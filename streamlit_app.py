@@ -99,7 +99,7 @@ def main():
         plotter.view_isometric()
 
         # Show the plot to the screen
-        stpyvista(plotter)
+        #stpyvista(plotter)
 
 
 if __name__ == "__main__":
